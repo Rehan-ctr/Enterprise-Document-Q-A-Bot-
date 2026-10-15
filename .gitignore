@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Vector database storage & caches
+vector_db/
+chroma_db/
+smoke_test_vector_db/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Temporary files & logs
+*.log
+*.tmp
+*.whl
+
+# IDE configurations
+.idea/
+.vscode/
+*.swp

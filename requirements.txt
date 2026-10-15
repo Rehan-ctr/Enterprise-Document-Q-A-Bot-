@@ -1,0 +1,14 @@
+# RAG (Retrieval-Augmented Generation) Pipeline - Dependencies
+#
+# Core runtime dependencies (already satisfied in Python 3.11 environment):
+torch>=2.0.0
+transformers>=4.40.0
+pypdf>=5.0.0
+fpdf2>=2.8.0
+
+# Vector database & PDF parsing alternatives:
+chromadb>=0.5.0
+pymupdf>=1.23.0
+
+# Optional LLM API generation:
+openai>=1.30.0
